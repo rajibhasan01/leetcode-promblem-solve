@@ -12,7 +12,6 @@ class Solution(object):
                 char_set.remove(s[left])
                 left += 1
             char_set.add(char)
-            print(char_set)
             max_len = max(max_len, right - left + 1)
         return max_len
 
